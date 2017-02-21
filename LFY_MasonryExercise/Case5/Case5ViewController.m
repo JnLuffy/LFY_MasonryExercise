@@ -28,10 +28,14 @@
     
     
     //创建一个分组样式的UITableView
-    _tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];  //记录下来，masonry 初始化UITableView的问题，是不是和UIScrollView的AutoLayout设置有关系吗？ 需要验证一下
+//    _tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];  //记录下来，masonry 初始化UITableView的问题，是不是和UIScrollView的AutoLayout设置有关系吗？ 需要验证一下,
+    
+    _tableView = [[UITableView alloc]init];
+    _tableView.frame = self.view.bounds;
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     [self.view addSubview:_tableView];
+    //使用此种方法约束报错，不能正常计算高度
 //    [_tableView mas_makeConstraints:^(MASConstraintMaker *make) {
 //        make.top.equalTo(self.view);
 //        make.left.right.equalTo(self.view);

@@ -12,8 +12,7 @@
 		833813471E5C14B9001F9257 /* Case5DataEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 833813461E5C14B9001F9257 /* Case5DataEntity.m */; };
 		8338134B1E5C16B3001F9257 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338134A1E5C16B3001F9257 /* Common.m */; };
 		8338134E1E5C1E3A001F9257 /* Case5Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8338134D1E5C1E3A001F9257 /* Case5Cell.m */; };
-		833813531E5C3954001F9257 /* XQFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 833813501E5C3954001F9257 /* XQFeedCell.m */; };
-		833813541E5C3954001F9257 /* XQFeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 833813521E5C3954001F9257 /* XQFeedModel.m */; };
+		833813581E5C41C7001F9257 /* Case6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 833813571E5C41C7001F9257 /* Case6ViewController.m */; };
 		83EAD0481E56A4FE0044DADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EAD0471E56A4FE0044DADA /* main.m */; };
 		83EAD04B1E56A4FE0044DADA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EAD04A1E56A4FE0044DADA /* AppDelegate.m */; };
 		83EAD04E1E56A4FE0044DADA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EAD04D1E56A4FE0044DADA /* ViewController.m */; };
@@ -65,10 +64,8 @@
 		8338134A1E5C16B3001F9257 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		8338134C1E5C1E3A001F9257 /* Case5Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case5Cell.h; sourceTree = "<group>"; };
 		8338134D1E5C1E3A001F9257 /* Case5Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case5Cell.m; sourceTree = "<group>"; };
-		8338134F1E5C3954001F9257 /* XQFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQFeedCell.h; sourceTree = "<group>"; };
-		833813501E5C3954001F9257 /* XQFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQFeedCell.m; sourceTree = "<group>"; };
-		833813511E5C3954001F9257 /* XQFeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQFeedModel.h; sourceTree = "<group>"; };
-		833813521E5C3954001F9257 /* XQFeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQFeedModel.m; sourceTree = "<group>"; };
+		833813561E5C41C7001F9257 /* Case6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case6ViewController.h; sourceTree = "<group>"; };
+		833813571E5C41C7001F9257 /* Case6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case6ViewController.m; sourceTree = "<group>"; };
 		83EAD0431E56A4FE0044DADA /* LFY_MasonryExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFY_MasonryExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EAD0471E56A4FE0044DADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83EAD0491E56A4FE0044DADA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -155,10 +152,6 @@
 		833813411E5C12D8001F9257 /* Case5 */ = {
 			isa = PBXGroup;
 			children = (
-				8338134F1E5C3954001F9257 /* XQFeedCell.h */,
-				833813501E5C3954001F9257 /* XQFeedCell.m */,
-				833813511E5C3954001F9257 /* XQFeedModel.h */,
-				833813521E5C3954001F9257 /* XQFeedModel.m */,
 				833813421E5C1303001F9257 /* Case5ViewController.h */,
 				833813431E5C1303001F9257 /* Case5ViewController.m */,
 				833813451E5C14B9001F9257 /* Case5DataEntity.h */,
@@ -176,6 +169,15 @@
 				8338134A1E5C16B3001F9257 /* Common.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		833813551E5C41AD001F9257 /* Case6 */ = {
+			isa = PBXGroup;
+			children = (
+				833813561E5C41C7001F9257 /* Case6ViewController.h */,
+				833813571E5C41C7001F9257 /* Case6ViewController.m */,
+			);
+			path = Case6;
 			sourceTree = "<group>";
 		};
 		83EAD03A1E56A4FE0044DADA = {
@@ -212,6 +214,7 @@
 				83EAD0A31E56C9400044DADA /* Case2 */,
 				83EAD0A71E56E4690044DADA /* Case3 */,
 				833813411E5C12D8001F9257 /* Case5 */,
+				833813551E5C41AD001F9257 /* Case6 */,
 				83EAD0521E56A4FE0044DADA /* Assets.xcassets */,
 				83EAD0541E56A4FE0044DADA /* LaunchScreen.storyboard */,
 				83EAD0571E56A4FE0044DADA /* Info.plist */,
@@ -446,15 +449,14 @@
 				83EAD09A1E56A50E0044DADA /* MASViewConstraint.m in Sources */,
 				8338134E1E5C1E3A001F9257 /* Case5Cell.m in Sources */,
 				83EAD0A21E56BDD60044DADA /* Case1ViewController.m in Sources */,
-				833813541E5C3954001F9257 /* XQFeedModel.m in Sources */,
 				83EAD0951E56A50E0044DADA /* MASCompositeConstraint.m in Sources */,
 				83EAD09B1E56A50E0044DADA /* NSArray+MASAdditions.m in Sources */,
-				833813531E5C3954001F9257 /* XQFeedCell.m in Sources */,
 				83EAD04E1E56A4FE0044DADA /* ViewController.m in Sources */,
 				83EAD04B1E56A4FE0044DADA /* AppDelegate.m in Sources */,
 				83EAD0981E56A50E0044DADA /* MASLayoutConstraint.m in Sources */,
 				83EAD0481E56A4FE0044DADA /* main.m in Sources */,
 				83EAD09E1E56A50E0044DADA /* ViewController+MASAdditions.m in Sources */,
+				833813581E5C41C7001F9257 /* Case6ViewController.m in Sources */,
 				83EAD09D1E56A50E0044DADA /* View+MASAdditions.m in Sources */,
 				83EAD0991E56A50E0044DADA /* MASViewAttribute.m in Sources */,
 				8338134B1E5C16B3001F9257 /* Common.m in Sources */,

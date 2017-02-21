@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"有趣的AutoLayout示例-Maonry实现";
-    self.dataArray = @[@"并排Label",@"动态居中",@"百分比宽度",@"变高UITableViewCell",@"FTDTemplateLayout变高",@"top(bottom)GuideView",@"自定义baseline",@"Parallax Header",@"动态展开UITableViewCell",@"两种方式实现等间距",@"用优先级保证内容可见",@"AutoLayout的“捆绑”特性",@"分阶段生效约束",@"Cell中并排多个变高的Label"];
+    self.dataArray = @[@"并排Label",@"动态居中",@"百分比宽度",@"变高UITableViewCell",@"FTDTemplateLayout变高",@"UIScorllView使用Masonry布局",@"top(bottom)GuideView",@"自定义baseline",@"Parallax Header",@"动态展开UITableViewCell",@"两种方式实现等间距",@"用优先级保证内容可见",@"AutoLayout的“捆绑”特性",@"分阶段生效约束",@"Cell中并排多个变高的Label"];
 
 }
 
