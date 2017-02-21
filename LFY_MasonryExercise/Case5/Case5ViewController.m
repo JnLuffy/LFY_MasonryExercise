@@ -28,7 +28,7 @@
     
     
     //创建一个分组样式的UITableView
-//    _tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];  //记录下来，masonry 初始化UITableView的问题，是不是和UIScrollView的AutoLayout设置有关系吗？ 需要验证一下,
+//    _tableView=[[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];  //记录下来，masonry 初始化UITableView的问题，是不是和UIScrollView的AutoLayout设置有关系吗？ 需要验证一下, 是UIScrollView的问题，因为UIscrollViwe子视图的约束需要特别设置（确定自己的宽高）
     
     _tableView = [[UITableView alloc]init];
     _tableView.frame = self.view.bounds;

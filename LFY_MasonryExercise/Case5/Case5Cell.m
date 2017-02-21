@@ -75,7 +75,8 @@
     // Content - 多行
     _contentLabel = [UILabel new];
     _contentLabel.numberOfLines = 0;
-    //    _contentLabel.preferredMaxLayoutWidth = preferredMaxWidth; // 使用systemLayoutSizeFittingSize方法时，多行时必须设置
+        _contentLabel.preferredMaxLayoutWidth = 200; // 多行Label在UIScrollView内部时，多行时必须设置
+    //或者UItableView使用masonry布局，没有设置Frame时需要设置 _contentLabel.preferredMaxLayoutWidth 或者在makeConstraints时使用make.width.equal(@200).priorityHign();
     [self.contentView addSubview:_contentLabel];
     
     [_contentLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -83,6 +84,7 @@
         make.left.equalTo(_avatarView.mas_right).with.offset(4);
         make.right.equalTo(self.contentView).with.offset(-4);
         make.bottom.equalTo(self.contentView).with.offset(-4);
+//        make.width.equalTo(@200).priorityHigh();
     }];
     
     [_contentLabel setContentHuggingPriority:UILayoutPriorityRequired forAxis:UILayoutConstraintAxisVertical];
