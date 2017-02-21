@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Case3ViewController.h
 //  LFY_MasonryExercise
 //
 //  Created by IOS.Mac on 17/2/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface Case3ViewController : UIViewController
 
 @end
-
